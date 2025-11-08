@@ -16,9 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from basic.views import helath
+from basic.views import health
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('health/',helath),
+    path('health/',health),
 ]
