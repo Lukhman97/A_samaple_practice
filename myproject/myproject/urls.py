@@ -16,9 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from basic.views import health
+from basic.views import health,lukh
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('health/',health),
+    path('healths/',health),
+    path('lukh/',lukh)
 ]
