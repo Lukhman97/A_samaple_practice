@@ -4,4 +4,4 @@ from django.shortcuts import render
 from django.http import  HttpRequest,HttpResponse
 
 def helath(request):
-    return "I am lukhman shaik"
+    return HttpResponse("I am lukhman shaik")
